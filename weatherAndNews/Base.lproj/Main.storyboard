@@ -1,24 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rdm-y1-IgJ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="weatherAndNews" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M3I-7M-xIt">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qm8-WU-Gwn">
+                                        <rect key="frame" x="44.5" y="312" width="325" height="150"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KpW-Tq-fft">
+                                                <rect key="frame" x="0.0" y="0.0" width="325" height="150"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MHQ-8w-uqh">
+                                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                                        <state key="normal" title="Weather">
+                                                            <color key="titleColor" white="0.0" alpha="0.84705882349999995" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gMN-VI-6Ut"/>
+                                                        </connections>
+                                                    </button>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="db7-Kc-I6K">
+                                                        <rect key="frame" x="150" y="0.0" width="25" height="150"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="25" id="0jJ-tS-sBA"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oyA-CE-v5u">
+                                                        <rect key="frame" x="175" y="0.0" width="150" height="150"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="150" id="XKo-eG-AWR"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                                        <state key="normal" title="News">
+                                                            <color key="titleColor" white="0.0" alpha="0.84705882349999995" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oZ1-QA-Jd5"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="db7-Kc-I6K" firstAttribute="top" secondItem="KpW-Tq-fft" secondAttribute="top" id="9ei-JI-Xhi"/>
+                                                    <constraint firstItem="db7-Kc-I6K" firstAttribute="leading" secondItem="MHQ-8w-uqh" secondAttribute="trailing" id="HjP-O4-OmK"/>
+                                                    <constraint firstAttribute="bottom" secondItem="db7-Kc-I6K" secondAttribute="bottom" id="OJw-sd-CsZ"/>
+                                                    <constraint firstItem="oyA-CE-v5u" firstAttribute="leading" secondItem="db7-Kc-I6K" secondAttribute="trailing" id="gU3-pg-Bph"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="KpW-Tq-fft" secondAttribute="bottom" id="39X-dh-r7i"/>
+                                            <constraint firstAttribute="trailing" secondItem="KpW-Tq-fft" secondAttribute="trailing" id="Dak-AQ-jam"/>
+                                            <constraint firstAttribute="width" constant="325" id="EIn-NL-CdZ"/>
+                                            <constraint firstItem="KpW-Tq-fft" firstAttribute="leading" secondItem="Qm8-WU-Gwn" secondAttribute="leading" id="PvQ-TA-7Wb"/>
+                                            <constraint firstItem="KpW-Tq-fft" firstAttribute="top" secondItem="Qm8-WU-Gwn" secondAttribute="top" id="Us9-wc-4yT"/>
+                                            <constraint firstAttribute="height" constant="150" id="evo-sR-lTw"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="Qm8-WU-Gwn" firstAttribute="centerY" secondItem="M3I-7M-xIt" secondAttribute="centerY" id="1vA-5H-Jja"/>
+                                    <constraint firstItem="Qm8-WU-Gwn" firstAttribute="centerX" secondItem="M3I-7M-xIt" secondAttribute="centerX" id="Mq5-aa-1et"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="M3I-7M-xIt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="606-9x-ITY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M3I-7M-xIt" secondAttribute="bottom" id="9ep-zt-EQg"/>
+                            <constraint firstItem="M3I-7M-xIt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Oa6-og-Tsl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="M3I-7M-xIt" secondAttribute="trailing" id="gpq-4h-NM2"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="EnX-yT-17e"/>
+                    <connections>
+                        <outlet property="newsButton" destination="oyA-CE-v5u" id="Iba-cj-CI8"/>
+                        <outlet property="weatherButton" destination="MHQ-8w-uqh" id="Tv1-Re-qgR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="93.75"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Qha-vM-gEj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rdm-y1-IgJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EL0-9g-1MT">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="819-Xt-MWg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wST-gT-a9o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="93.75"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061CA54E2653879000524573 /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061CA54D2653879000524573 /* WeatherResponse.swift */; };
+		061CA5522654DB0200524573 /* HourlyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061CA5502654DB0200524573 /* HourlyCollectionViewCell.swift */; };
+		061CA5532654DB0200524573 /* HourlyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 061CA5512654DB0200524573 /* HourlyCollectionViewCell.xib */; };
 		06FB3C0726525B560049013C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FB3C0626525B560049013C /* AppDelegate.swift */; };
 		06FB3C0926525B560049013C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FB3C0826525B560049013C /* SceneDelegate.swift */; };
 		06FB3C0B26525B560049013C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FB3C0A26525B560049013C /* ViewController.swift */; };
 		06FB3C0E26525B560049013C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FB3C0C26525B560049013C /* Main.storyboard */; };
 		06FB3C1026525B5E0049013C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06FB3C0F26525B5E0049013C /* Assets.xcassets */; };
 		06FB3C1326525B5E0049013C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FB3C1126525B5E0049013C /* LaunchScreen.storyboard */; };
+		06FB3C1B2652605C0049013C /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FB3C1A2652605C0049013C /* constants.swift */; };
+		06FB3C2226528B6E0049013C /* WeatherCastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FB3C2026528B6E0049013C /* WeatherCastViewController.swift */; };
+		06FB3C2326528B6E0049013C /* WeatherCastViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06FB3C2126528B6E0049013C /* WeatherCastViewController.xib */; };
+		06FB3C2626528B8B0049013C /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FB3C2426528B8B0049013C /* NewsViewController.swift */; };
+		06FB3C2726528B8B0049013C /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06FB3C2526528B8B0049013C /* NewsViewController.xib */; };
+		06FB3C29265293670049013C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FB3C28265293670049013C /* CardView.swift */; };
+		06FB3C342652E0050049013C /* WeatherCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FB3C322652E0050049013C /* WeatherCellTableViewCell.swift */; };
+		06FB3C352652E0050049013C /* WeatherCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06FB3C332652E0050049013C /* WeatherCellTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		061CA54D2653879000524573 /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
+		061CA5502654DB0200524573 /* HourlyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyCollectionViewCell.swift; sourceTree = "<group>"; };
+		061CA5512654DB0200524573 /* HourlyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HourlyCollectionViewCell.xib; sourceTree = "<group>"; };
 		06FB3C0326525B560049013C /* weatherAndNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherAndNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06FB3C0626525B560049013C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06FB3C0826525B560049013C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,14 @@
 		06FB3C0F26525B5E0049013C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06FB3C1226525B5E0049013C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06FB3C1426525B5E0049013C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06FB3C1A2652605C0049013C /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		06FB3C2026528B6E0049013C /* WeatherCastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCastViewController.swift; sourceTree = "<group>"; };
+		06FB3C2126528B6E0049013C /* WeatherCastViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherCastViewController.xib; sourceTree = "<group>"; };
+		06FB3C2426528B8B0049013C /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		06FB3C2526528B8B0049013C /* NewsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
+		06FB3C28265293670049013C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		06FB3C322652E0050049013C /* WeatherCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCellTableViewCell.swift; sourceTree = "<group>"; };
+		06FB3C332652E0050049013C /* WeatherCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherCellTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		061CA54F2654DAD000524573 /* HourlyCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				061CA5502654DB0200524573 /* HourlyCollectionViewCell.swift */,
+				061CA5512654DB0200524573 /* HourlyCollectionViewCell.xib */,
+			);
+			path = HourlyCollectionView;
+			sourceTree = "<group>";
+		};
 		06FB3BFA26525B560049013C = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +87,49 @@
 		06FB3C0526525B560049013C /* weatherAndNews */ = {
 			isa = PBXGroup;
 			children = (
+				06FB3C302652DF800049013C /* WeatherCastViewController */,
 				06FB3C0626525B560049013C /* AppDelegate.swift */,
 				06FB3C0826525B560049013C /* SceneDelegate.swift */,
 				06FB3C0A26525B560049013C /* ViewController.swift */,
+				061CA54D2653879000524573 /* WeatherResponse.swift */,
+				06FB3C2E2652DF540049013C /* NewsViewController */,
+				06FB3C28265293670049013C /* CardView.swift */,
 				06FB3C0C26525B560049013C /* Main.storyboard */,
+				06FB3C1A2652605C0049013C /* constants.swift */,
 				06FB3C0F26525B5E0049013C /* Assets.xcassets */,
 				06FB3C1126525B5E0049013C /* LaunchScreen.storyboard */,
 				06FB3C1426525B5E0049013C /* Info.plist */,
 			);
 			path = weatherAndNews;
+			sourceTree = "<group>";
+		};
+		06FB3C2E2652DF540049013C /* NewsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				06FB3C2426528B8B0049013C /* NewsViewController.swift */,
+				06FB3C2526528B8B0049013C /* NewsViewController.xib */,
+			);
+			path = NewsViewController;
+			sourceTree = "<group>";
+		};
+		06FB3C302652DF800049013C /* WeatherCastViewController */ = {
+			isa = PBXGroup;
+			children = (
+				061CA54F2654DAD000524573 /* HourlyCollectionView */,
+				06FB3C312652DFCD0049013C /* WeatherCell */,
+				06FB3C2126528B6E0049013C /* WeatherCastViewController.xib */,
+				06FB3C2026528B6E0049013C /* WeatherCastViewController.swift */,
+			);
+			path = WeatherCastViewController;
+			sourceTree = "<group>";
+		};
+		06FB3C312652DFCD0049013C /* WeatherCell */ = {
+			isa = PBXGroup;
+			children = (
+				06FB3C322652E0050049013C /* WeatherCellTableViewCell.swift */,
+				06FB3C332652E0050049013C /* WeatherCellTableViewCell.xib */,
+			);
+			path = WeatherCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +189,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06FB3C352652E0050049013C /* WeatherCellTableViewCell.xib in Resources */,
+				06FB3C2326528B6E0049013C /* WeatherCastViewController.xib in Resources */,
 				06FB3C1326525B5E0049013C /* LaunchScreen.storyboard in Resources */,
+				06FB3C2726528B8B0049013C /* NewsViewController.xib in Resources */,
 				06FB3C1026525B5E0049013C /* Assets.xcassets in Resources */,
 				06FB3C0E26525B560049013C /* Main.storyboard in Resources */,
+				061CA5532654DB0200524573 /* HourlyCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +206,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06FB3C29265293670049013C /* CardView.swift in Sources */,
 				06FB3C0B26525B560049013C /* ViewController.swift in Sources */,
+				061CA5522654DB0200524573 /* HourlyCollectionViewCell.swift in Sources */,
 				06FB3C0726525B560049013C /* AppDelegate.swift in Sources */,
+				061CA54E2653879000524573 /* WeatherResponse.swift in Sources */,
 				06FB3C0926525B560049013C /* SceneDelegate.swift in Sources */,
+				06FB3C2626528B8B0049013C /* NewsViewController.swift in Sources */,
+				06FB3C342652E0050049013C /* WeatherCellTableViewCell.swift in Sources */,
+				06FB3C1B2652605C0049013C /* constants.swift in Sources */,
+				06FB3C2226528B6E0049013C /* WeatherCastViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +363,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47FV2ATYKX;
 				INFOPLIST_FILE = weatherAndNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +382,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47FV2ATYKX;
 				INFOPLIST_FILE = weatherAndNews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
