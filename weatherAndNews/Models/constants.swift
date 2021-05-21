@@ -14,7 +14,10 @@ struct Colors{
     static let yellowColor = UIColor(rgb: 0xF5DD7B)
     
 }
-
+enum url{
+    case singleCity
+    case cityAround
+}
 extension UIColor{
     convenience init(red: Int, green: Int, blue: Int) {
            assert(red >= 0 && red <= 255, "Invalid red component")
@@ -30,4 +33,6 @@ extension UIColor{
                blue: rgb & 0xFF
            )
     }
+    
 }
+

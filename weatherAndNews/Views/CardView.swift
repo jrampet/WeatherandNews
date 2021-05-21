@@ -19,7 +19,7 @@ class CardView: UIView {
 
     override func layoutSubviews() {
         cornerRadius = frame.width/15
-        print(cornerRadius)
+       
         layer.cornerRadius = cornerRadius
         let shadowPath = UIBezierPath(roundedRect: bounds, cornerRadius: cornerRadius)
         

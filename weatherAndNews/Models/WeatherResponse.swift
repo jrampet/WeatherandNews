@@ -121,45 +121,4 @@ struct Temp: Codable {
     let eve, morn: Double
 }
 
-//
-//struct current: Codable {
-//    let dt,sunrise,sunset,temp,feels_like,pressure,humidity,dew_point: Float
-//    let wind_speed,wind_deg,uvi,clouds,visibility,wind_gust : Float
-//    let weather : [weather]
-//}
-//
-//struct weather: Codable{
-//    let id : Int
-//    let main : String
-//    let description : String
-//    let icon : String
-//}
-//struct hourly: Codable{
-//    let hour : [hourlyData]
-//}
-//struct hourlyData:Codable{
-//    let dt,temp,feels_like,pressure,humidity,dew_point,pop: Float
-//    let wind_speed,wind_deg,uvi,clouds,visibility,wind_gust : Float
-//    let weather : [weather]
-//}
-//
-//struct daily:Codable{
-//    let daily : [dailyData]
-//}
-//struct dailyData:Codable{
-//    let dt,sunrise,sunset,moonrise,moonset,moon_phase : Float
-//    let temp : temp
-//    let feels_like : feels_like
-//    let pressure,humidity,dew_point,wind_speed,wind_deg,wind_gust: Float
-//    let weather : [weather]
-//    let clouds,pop,uvi: Float
-//
-//}
-//
-//struct temp:Codable{
-//    let day,min,max,night,eve,morn : Float
-//}
-//struct feels_like:Codable{
-//    let day,night,eve,morn : Float
-//
-//}
+

@@ -44,21 +44,6 @@ class ViewController: UIViewController{
     
   
     
-//    func fetchData(){
-//        let urlString = "https://api.openweathermap.org/data/2.5/onecall?lat=8.699525&lon=77.516735&exclude=minutely&unit=metric&appid=3540e704b9a91cce081155a9f4acefc6"
-//        guard let url = URL(string:urlString) else {
-//            return
-//        }
-//        URLSession.shared.dataTask(with: url){ (data, res, error) in
-//            do{
-////                let todoDetails = try JSONDecoder.decode(APIData.self,)
-//                DispatchQueue.main.async {
-//                    print("SDF")
-//                }
-//            }catch{}
-//        }.resume()
-//
-//    }
 
 }
 

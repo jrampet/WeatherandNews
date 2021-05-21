@@ -27,7 +27,7 @@ class WeatherCellTableViewCell: UITableViewCell {
         self.TempLabel.contentMode = .scaleAspectFit
         self.descriptLabel.contentMode = .scaleAspectFit
         self.selectionStyle = .none
-
+        
         
     }
     
